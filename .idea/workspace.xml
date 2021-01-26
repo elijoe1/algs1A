@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7304f2c0-842a-4ab0-890b-be5579e219cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/InsertSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="7304f2c0-842a-4ab0-890b-be5579e219cc" name="Default Changelist" comment="Change InsertSort implementation to use while loop rather than for and break" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,8 +83,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611684906729</updated>
-      <workItem from="1611684907898" duration="2147000" />
+      <workItem from="1611684907898" duration="2422000" />
     </task>
+    <task id="LOCAL-00001" summary="Change InsertSort implementation to use while loop rather than for and break">
+      <created>1611688105608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611688105608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change InsertSort implementation to use while loop rather than for and break" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change InsertSort implementation to use while loop rather than for and break" />
   </component>
 </project>

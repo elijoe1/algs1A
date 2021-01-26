@@ -11,7 +11,7 @@ public class InsertSort {
             int j = i - 1;
             // note that the j >= 0 predicate must go first as otherwise you may
             // try to access a negative index with list.get(j), which is illegal.
-            while (j >= 0 && comparator.compare(list.get(j),  list.get(j+1)) < 0) {
+            while (j >= 0 && comparator.compare(list.get(j),  list.get(j+1)) > 0) {
                     T temp = list.get(j);
                     list.set(j, list.get(j + 1));
                     list.set(j + 1, temp);
