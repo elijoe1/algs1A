@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7304f2c0-842a-4ab0-890b-be5579e219cc" name="Default Changelist" comment="" />
+    <list default="true" id="7304f2c0-842a-4ab0-890b-be5579e219cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/InsertSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611684906729</updated>
-      <workItem from="1611684907898" duration="1804000" />
+      <workItem from="1611684907898" duration="2147000" />
     </task>
     <servers />
   </component>
