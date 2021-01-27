@@ -8,15 +8,15 @@ public class SelectSort {
 
     public static <T> void sort(List<T> list, Comparator<T> comparator) {
         for (int i=0; i < list.size(); i++) {
-            int mindex = i;
+            int iMin = i;
             for (int j=i+1; j < list.size(); j++) {
-                if (comparator.compare(list.get(j), list.get(mindex)) < 0) {
-                    mindex = j;
+                if (comparator.compare(list.get(j), list.get(iMin)) < 0) {
+                    iMin = j;
                 }
             }
             T temp = list.get(i);
-            list.set(i, list.get(mindex));
-            list.set(mindex, temp);
+            list.set(i, list.get(iMin));
+            list.set(iMin, temp);
         }
     }
 
