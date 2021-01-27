@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7304f2c0-842a-4ab0-890b-be5579e219cc" name="Default Changelist" comment="Implement SelectSort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/BinaryInsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/BubbleSort.java" afterDir="false" />
+    <list default="true" id="7304f2c0-842a-4ab0-890b-be5579e219cc" name="Default Changelist" comment="Implement MergeSort and BottomUpMergeSort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/BottomUpMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/cam/ej349/SelectSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +48,22 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.BottomUpMergeSort">
     <configuration name="BinaryInsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uk.ac.cam.ej349.BinaryInsertSort" />
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.ac.cam.ej349.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BottomUpMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.ac.cam.ej349.BottomUpMergeSort" />
       <module name="Exercises" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uk.ac.cam.ej349.InsertSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.ac.cam.ej349.MergeSort" />
       <module name="Exercises" />
       <extension name="coverage">
         <pattern>
@@ -102,25 +114,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BottomUpMergeSort" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.BinaryInsertSort" />
         <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.InsertSort" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +144,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611684906729</updated>
       <workItem from="1611684907898" duration="3575000" />
-      <workItem from="1611752406279" duration="4669000" />
+      <workItem from="1611752406279" duration="4712000" />
+      <workItem from="1611757177758" duration="4619000" />
     </task>
     <task id="LOCAL-00001" summary="Change InsertSort implementation to use while loop rather than for and break">
       <created>1611688105608</created>
@@ -156,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611752805124</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Imlement BubbleSort and BinaryInsertSort">
+      <created>1611757121041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611757121041</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +197,8 @@
     <MESSAGE value="Change InsertSort implementation to use while loop rather than for and break" />
     <MESSAGE value="Change InsertSort so sorts 'smallest' to 'largest'" />
     <MESSAGE value="Implement SelectSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement SelectSort" />
+    <MESSAGE value="Imlement BubbleSort and BinaryInsertSort" />
+    <MESSAGE value="Implement MergeSort and BottomUpMergeSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement MergeSort and BottomUpMergeSort" />
   </component>
 </project>
