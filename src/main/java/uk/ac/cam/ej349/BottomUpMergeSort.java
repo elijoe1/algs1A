@@ -63,7 +63,7 @@ public class BottomUpMergeSort {
     }
 
     public static void main(String[] args) {
-        List<Integer> intList = new ArrayList<>(List.of(-3,4,7,3,2,5,4,2,3,5,-4,-12));
+        List<Integer> intList = new ArrayList<>(List.of(-3,4,7,3,2,5,4,2,3, 5, 2));
         List<Integer> sortedList = sort(intList, Comparator.naturalOrder());
         System.out.println(sortedList);
     }
